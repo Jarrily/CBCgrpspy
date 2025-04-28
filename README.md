@@ -1,4 +1,4 @@
-# 📊 Data Analysis Toolkit
+# 📊 Three-line Table Toolkit  
 ```markdown
 Automated comparative analysis tool for group data, supporting intelligent statistical tests for two/multiple groups with standardized output tables.
 ```
