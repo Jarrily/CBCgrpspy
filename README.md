@@ -14,7 +14,7 @@ pip install CBCgrpspy
 | Parameter           | Type        | Default   | Description                                                         |
 |---------------------|-------------|-----------|---------------------------------------------------------------------|
 | `df_path`           | `str`       | **Required** | Data file path (.xlsx/.csv supported)                              |
-| `label_series`      | `str`       | "label"   | Target label column name (must specify if no "label" column exists) |
+| `label_series`      | `str`       | "label"   | Target label column name (must specify if no "label" column exists) and Target label column containing integer group codes (e.g., 0=Control, 1=Case) |
 | `skewvaranalysis`   | `list`      | None      | Manually specified categorical variables                           |
 | `norm_rd`           | `int`       | 2         | Decimal places for normal distributions (Mean ± SD format)         |
 | `sk_rd`             | `int`       | 2         | Decimal places for non-normal distributions (Median (IQR) format)  |
